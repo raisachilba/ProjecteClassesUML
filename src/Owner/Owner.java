@@ -78,8 +78,15 @@ public class Owner {
     }
 
     public String cheapestProp(){
-
-        return ;
+        float min= props[1].getPrice();
+        String nomMin= "";
+        for(int i=0; i<numProps; i++){
+            if (props[i].getPrice()< min){
+                min= props[i].getPrice();
+                nomMin= props[i].getPropID();
+            }
+        }
+        return  nomMin;
     }
 
     public void sortPropsByPrice(String p){
