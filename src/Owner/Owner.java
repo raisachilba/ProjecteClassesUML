@@ -43,23 +43,43 @@ public class Owner {
     }
 
     public void addProp(Prop p){
-
+        props[numProps] = p;
+        numProps++;
     }
 
-    public float cheapestPrice(float ch){
-        return ch;
+    public float cheapestPrice(){
+        float min = props[1].getPrice();
+        for (int i = 0; i < props.length; i++){
+            if(props[i].getPrice() > min){
+                min = props[i].getPrice();
+            }
+        }
+        return min;
     }
 
-    public float expensivePrice(float ex){
-        return ex;
+    public float expensivePrice(){
+        float max = props[1].getPrice();
+        for(int i = 0; i <numProps; i++){
+            if(props[i].getPrice() < max){
+                max = props[i].getPrice();
+            }
+        }
+        return max;
     }
 
-    public float averagePrices(float av){
+    public float averagePrices(){
+        float av = 0;
+        for(int i = 0; i<numProps; i++){
+            float sum = 0;
+            sum = sum + props[i].getPrice();
+            av = sum/numProps;
+        }
         return av;
     }
 
-    public String cheapestProp(String n){
-        return n;
+    public String cheapestProp(){
+
+        return ;
     }
 
     public void sortPropsByPrice(String p){

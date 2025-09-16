@@ -42,10 +42,10 @@ public class Prop {
     }
 
     public boolean isCheaperThan(Prop p){
-        return true;
+        return p.price < price;
     }
 
     public boolean samecity(Prop p){
-        return true;
+        return p.city == city;
     }
 }
