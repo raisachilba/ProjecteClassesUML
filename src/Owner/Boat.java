@@ -3,12 +3,12 @@ package Owner;
 public class Boat extends Prop{
 
     float length;
-    boolean naviigable;
+    boolean navigable;
 
-    public Boat(String ID, String address, String city, float length, boolean naviigable) {
+    public Boat(String ID, String address, String city, float length) {
         super(ID, address, city);
         this.length = length;
-        this.naviigable = naviigable;
+        this.navigable = true;
     }
 
     public float getLength() {
@@ -19,9 +19,9 @@ public class Boat extends Prop{
     }
 
     public boolean isNaviigable() {
-        return naviigable;
+        return navigable;
     }
     public void setNaviigable(boolean naviigable) {
-        this.naviigable = naviigable;
+        this.navigable = naviigable;
     }
 }

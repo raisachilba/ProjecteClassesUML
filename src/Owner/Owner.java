@@ -89,7 +89,18 @@ public class Owner {
         return  nomMin;
     }
 
-    public void sortPropsByPrice(String p){
-
+    public void sortPropsByPrice(){
+        boolean ordenat = false;
+        while(!ordenat){
+            ordenat = true;
+            for(int i = 0; i<numProps-1; i++){
+                if(props[i].getPrice()>props[i+1].getPrice()) {
+                    Prop temp = props[i];
+                    props[i] = props[i+1];
+                    props[i+1] = temp;
+                    ordenat = false;
+                }
+            }
+        }
     }
 }

@@ -5,10 +5,10 @@ public class House extends Prop {
     int numRooms;
     boolean swimmingPool;
 
-    public House(String ID, String address, String city, int numRooms, boolean swimmingPool) {
+    public House(String ID, String address, String city, int numRooms) {
         super(ID, address, city);
         this.numRooms = numRooms;
-        this.swimmingPool = swimmingPool;
+        this.swimmingPool = false;
     }
 
     public int getNumRooms() {

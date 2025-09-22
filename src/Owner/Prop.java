@@ -2,15 +2,16 @@ package Owner;
 
 public class Prop {
 
-    String propID;
-    String address;
-    String city;
-    float price;
+    private String propID;
+    private String address;
+    private String city;
+    private float price;
 
     public Prop(String ID, String address, String city) {
         this.propID = ID;
         this.address = address;
         this.city = city;
+        this.price = 0.0f;
     }
 
     public String getPropID() {
@@ -42,10 +43,10 @@ public class Prop {
     }
 
     public boolean isCheaperThan(Prop p){
-        return p.price < price;
+        return this.getPrice() < p.getPrice();
     }
 
     public boolean samecity(Prop p){
-        return p.city == city;
+        return this.getCity().equals(p.getCity());
     }
 }

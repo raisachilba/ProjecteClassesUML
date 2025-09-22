@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="695fc70d-d24a-4749-845a-f03bafd84639" name="Changes" comment="Classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Owner/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Owner/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Owner/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Owner/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Owner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Owner/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Owner/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Owner/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Owner/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Owner/Prop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758017506537</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Classes">
+      <option name="closed" value="true" />
+      <created>1758021755950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758021755950</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
